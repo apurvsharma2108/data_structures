@@ -27,29 +27,37 @@ void del(int pos){
 }
 void print(){
 	Node* temp=head;
-	cout<<"List is";
+	cout<<"List is:";
 	while(temp!=NULL){
-		cout<<" "<<temp ->data;
+		cout<<" "<<temp ->data<<"->";
 		temp=temp->next;
 	}
 	cout<<"\n";
 }
 int main(){
 	head=NULL;
-	insert(1);
-	insert(2);
-	insert(3);
-	insert(4);
-	insert(5);
-	print();
-	del(4);
-	print();
-	del(1);
-	print();
-	del(2);
-	print();
-	del(2);
-	print();
-	del(1);
-	print();
+	cout<<"Enter 1 for Insert \nEnter 2 for deletion \nEnter 3 for print ";
+	while(1){
+		cout<<"\nEnter your choice ";
+		int choice;
+		cin>>choice;
+		if (choice==1){
+			int n;
+			cout<<"enter number ";
+			cin>>n;
+			insert(n);
+		}
+		else if(choice==2){
+			int pos;
+			cout<<"enter position";
+			cin>>pos;
+			del(pos);
+		}
+		else if (choice==3){
+			print();
+		}
+		else{
+			break;
+		}
+	}
 }
