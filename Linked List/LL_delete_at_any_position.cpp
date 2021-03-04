@@ -8,8 +8,17 @@ Node *head;
 void insert(int n){
 	Node* temp1=new Node();
 	temp1->data=n;
-	temp1->next=head;
-	head=temp1;
+	temp1->next=NULL;
+	if (head==NULL){
+		head=temp1;
+	}
+	else{
+		Node* temp2=head;
+		while(temp2->next!=NULL){
+			temp2=temp2->next;
+		}
+		temp2->next=temp1;
+	}
 }
 void del(int pos){
 	Node* temp1=head;
