@@ -13,9 +13,9 @@ void insert(int n){
 		head=temp1;
 	}
 	else{
-		Node* temp2=head;
+		Node* temp2=head;                             //insertion at the end
 		while(temp2->next!=NULL){
-			temp2=temp2->next;
+			temp2=temp2->next;                   
 		}
 		temp2->next=temp1;
 	}
