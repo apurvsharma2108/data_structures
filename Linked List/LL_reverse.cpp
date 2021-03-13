@@ -29,7 +29,7 @@ void reverse_ll(Node* p){
 	reverse_ll(p->next);
 	struct Node* q=p->next;
 	q->next=p;
-	p->next=NULL;
+	p->next=NULL;				//making it null at every node				
 }
 void print(Node* head){
 	if (head==NULL){
