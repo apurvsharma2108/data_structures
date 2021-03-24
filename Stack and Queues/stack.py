@@ -1,0 +1,10 @@
+stack=[]
+print("Initial Stack",stack)
+stack.append(2)
+stack.append(3)
+stack.append(4)
+print("Stack after push",stack)
+stack.pop()
+stack.pop()
+stack.pop()
+print("Stack after pop",stack)
