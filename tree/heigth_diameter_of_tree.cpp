@@ -13,13 +13,11 @@ struct node{
 };
 
 int calcHeight(node* root){
-	int a;
 	if(root==NULL){
-		return 0;
+		return -1;
 	}
 	int lHeight=calcHeight(root->left);
 	int rHeight=calcHeight(root->right);
-	a=max(lHeight,rHeight)+1;
 	return max(lHeight,rHeight)+1;            //height of tree with 1 node is 0;
 }
 
