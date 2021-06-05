@@ -18,7 +18,7 @@ void printLevelOrder(node* root){
 	}
 	queue<node*>q;				
 	q.push(root);
-	q.push(NULL);
+	q.push(NULL);				//check for a level at a time
 	while(!q.empty()){
 		node* val=q.front();			//store the upcoming value in node pointer;
 		q.pop();
