@@ -7,13 +7,13 @@ int main(){
     cin>>n;
     for(int i=2;i<=sqrt(n);i++){               
         if(n%i==0){
-            cout<<"non prime he bsdk"<<endl;
+            cout<<"non prime"<<endl;
             flag=1;
             break;
         }
     }
     if(flag==0){
-        cout<<"prime he mc"<<endl;
+        cout<<"prime"<<endl;
     }
 
 }
