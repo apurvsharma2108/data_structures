@@ -10,7 +10,7 @@ int main(){
                  cout<<" ";
              }
              else{
-                 cout<<"*"; //if we give space after star it prints a pyramid
+                 cout<<"#"; //if we give space after star it prints a pyramid
              }
          }
          cout<<endl;

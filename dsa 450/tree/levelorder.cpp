@@ -16,7 +16,7 @@ struct Node {
 
 void levelorder(Node* root){
     if(root==NULL) return;
-
+    int level=1;
     queue<Node*> q;
     q.push(root);
     q.push(NULL); // q will look like this  [1,NULL]
@@ -36,8 +36,10 @@ void levelorder(Node* root){
         }
         else if(!q.empty()){ // if q is not empty and node ==null
             q.push(NULL);
+            level+=1;
         }
     }
+    cout<<level;
 }
 
 int main(){
