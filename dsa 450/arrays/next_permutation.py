@@ -18,6 +18,6 @@ def next(a):
         return a
 
 
-a=[1,1,5,2]
+a=[5,5,1]
 print(next(a))
 # link to video https://www.youtube.com/watch?v=zGQq3HGBTXg&t=280s

@@ -1,1 +1,2 @@
--sums
+    # print(ord( B[i] ) )
+    # print(" ")

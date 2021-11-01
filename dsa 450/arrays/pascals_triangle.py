@@ -9,3 +9,4 @@ def genrate(a):
 
 a=5
 print(genrate(5))
+

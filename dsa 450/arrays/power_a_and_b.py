@@ -7,4 +7,4 @@ def power(a,b):
         b=b>>1 #b=b//2
     return res
 
-print(power(3,5))
+print(power(2,5))
