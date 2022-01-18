@@ -20,4 +20,4 @@ def next(a):
 
 a=[5,5,1]
 print(next(a))
-# link to video https://www.youtube.com/watch?v=zGQq3HGBTXg&t=280s
+# link to video https://www.youtube.com/watch?v=zGQq3HGBTXg

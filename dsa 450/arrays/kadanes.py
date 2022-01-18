@@ -25,4 +25,4 @@ def maxSubArraySum(a,size):
 a = [-2, -3, 4, -1, -2, 1, 5, -3]
 print("Maximum contiguous sum is" , maxSubArraySum(a,len(a)))
  
-#This code is contributed by _Devesh Agrawal_
+

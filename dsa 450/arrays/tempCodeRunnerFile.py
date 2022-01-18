@@ -1,2 +1,1 @@
-    # print(ord( B[i] ) )
-    # print(" ")
+st.reverse()
