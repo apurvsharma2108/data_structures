@@ -1,1 +1,1 @@
-st.reverse()
+print(2^4)

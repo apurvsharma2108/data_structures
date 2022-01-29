@@ -1,2 +1,1 @@
-a=65784383
-print(len(list(str(a))))
+print(2^4)

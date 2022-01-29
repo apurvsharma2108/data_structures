@@ -1,0 +1,5 @@
+A Binary Search Tree is a Binary tree in which every right node is greater than the parent node 
+and every left node is smaller than the parent node .True for every node
+Why it is needed ?
+The importance of BST is that search delete insert operations all are done in O(logn)
+And if we want to reterive a range we can also  do that in O(logn)

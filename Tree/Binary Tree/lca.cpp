@@ -15,14 +15,14 @@ struct Node{
 
 class Solution {
 public:
-    Node* lowestCommonAncestor(Node* root, Node* p, Node* q) {
+    Node* lca(Node* root, Node* p, Node* q) {
         
         if(root==NULL) return NULL;
         
         if(root==p || root==q) return root; // base condition for recursion
         
-        Node* left =lowestCommonAncestor(root->left,p,q);
-        Node* right =lowestCommonAncestor(root->right,p,q);
+        Node* left =lca(root->left,p,q);
+        Node* right =lca(root->right,p,q);
         
         if(left!=NULL && right!=NULL) {
             return root;

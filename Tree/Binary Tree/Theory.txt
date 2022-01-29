@@ -1,0 +1,4 @@
+Binary Tree:
+1). A Tree with each node having at most two children is called binary tree
+2). Maximum no. of nodes at level i is 2^i
+3). Maximum no. of nodes in a tree with height h is 2^h-1
