@@ -1,1 +1,5 @@
-print(2^4)
+s = "g e e k"
+a=""
+for i in s:
+    a+=i
+print(f"ans ia  {a}")

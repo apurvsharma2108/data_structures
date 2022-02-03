@@ -1,15 +1,14 @@
 #include <iostream>
 using namespace std;
+int solve(int n){
+    if (n==1){
+        return 1;
+    }
+    solve(n-1);
+    cout<<n;
+}
 int main(){
-     int n;
-     cin>>n;
-     for (size_t i = 0; i <= n; i++)
-     {
-         for (size_t j = i+1; j <= n; j++)
-         {
-            cout<<"*";
-         }
-         cout<<"\n";
-     }
-     
+int n;
+n=10;
+cout<<solve(n);
 }

@@ -13,7 +13,6 @@ def minJumps(a, n):
                 return jump 
             max_reach=max(max_reach,i+a[i]) # we calculate the maximum jump we can take from a[i] and store it in max reach
             step-=1 #since we move forward 1 step we reduce step by 1
-        
             if step==0:
                 step=max_reach-i #from this value how far we will go we store it in max reach
                 jump+=1 #since step is 0 therefore we have to makee a jump

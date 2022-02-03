@@ -26,7 +26,7 @@ void flatten(node* root){
 	root->right=root->left;
 	root->left=NULL;
 								//root ki right pe pehle left phir right
-	node* t= root->right;		//step3 here node* right is preivous node* left 
+	node* t= root->right;		//step3 here node->right is preivous node->left 
 	//here we have stored the right part in t because at the tail of t temp will append 
 	while(t->right!=NULL){				//to reach the end of t
 		t=t->right;
