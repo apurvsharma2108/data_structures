@@ -18,6 +18,6 @@ def next(a):
         return a
 
 
-a=[5,5,1]
+a=[9,1,2,4,3,1,0] # next permutation : [9,1,3,0,1,2,4]
 print(next(a))
 # link to video https://www.youtube.com/watch?v=zGQq3HGBTXg

@@ -3,6 +3,7 @@
 using namespace std;
 int main(){
     int n;
+    
     map<int,string>m;
     m[1]="apurav";
     m[2]="sharma";

@@ -15,4 +15,18 @@ def findLongestConseqSubseq(self,a, N):
                     j+=1
                 ans=max(ans,j)
         return ans
-                
+    
+def ans (a,n):
+    n=set(a)
+    count=0
+
+    for val in n:
+        if val-1 not in n:
+            curr_val = val
+            curr_streak =1
+
+            while curr_val+1 in n:
+                curr_streak+=1
+                curr_val+=1
+            count=max(count,curr_streak)
+    return count
