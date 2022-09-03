@@ -9,5 +9,15 @@ using namespace std;
 int main()
 {
     int n;
+    
     cout<<"1 st program to a better life";
+    cin>>n;
+
+    if(n>0)
+        cout<<"Positive";
+    
+    else
+        cout<<"Negative";
+    
+
 }
