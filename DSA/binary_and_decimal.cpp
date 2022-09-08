@@ -19,6 +19,7 @@ int main()
     // decimal to binary
 
     int n;
+    int abc;
     cin >> n;
     int ans = 0;
     int i = 0;
