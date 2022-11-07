@@ -1,9 +1,5 @@
-def check(a):
-	a[0]=100
-	for i in a:
-		print(i)
-a= [1,2,3]
+a = 9999
 
-print(check(a))
-for i in a:
-	print(i)
+a = list(map(int,str(a)))
+
+print(type(a))
