@@ -12,15 +12,10 @@ using namespace std;
 
 int main()
 {
-    // vector<int>v;
-    // v.push_back(1);
-    // v.push_back(2);
-    // v.push_back(3);
-    // v.push_back(4);
-    // int sum = accumulate(begin(v), end(v), 0);
-    // cout<<sum;
-    // int res= INT_MAX;
-    // cout<<res ;
-    int n = 13;
-    cout<<sqrt(n);
+    
+
+    int a[] = {1,2,3,4,5,6};
+    int sz = sizeof(a)/sizeof(int);    
+
+    cout<<sz;
 }
