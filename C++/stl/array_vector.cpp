@@ -50,7 +50,7 @@ int main(){
 
     cout<<"after popping ";
     for(int i:v){
-        cout<<i<<" ";
+        cout<<"apurv look here"<<v[i]<<" ";
     }
     cout<<endl;
 //-------------------------------------------------

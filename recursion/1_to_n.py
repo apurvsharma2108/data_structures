@@ -26,5 +26,4 @@ def printFun(test):
 test = 3
 printFun(test)
 
-# This code is contributed by
-# Smitha Dinesh Semwal
+

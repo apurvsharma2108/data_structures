@@ -1,4 +1,0 @@
-Array store similar kinds of elements
-when we want to store similar kind of values in a single variable we use arrays
-
-when we pass array into functions do not update inside functions it changes it into main also
